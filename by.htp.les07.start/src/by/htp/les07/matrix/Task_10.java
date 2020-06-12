@@ -2,10 +2,10 @@ package by.htp.les07.matrix;
 
 import by.htp.les07.tool.matrixTool;
 
-// 10. Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
+// 10. Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё k-СЋ СЃС‚СЂРѕРєСѓ Рё p-Р№ СЃС‚РѕР»Р±РµС† РјР°С‚СЂРёС†С‹.
 public class Task_10 {
 	public static void task() {
-		System.out.println("10. Дана матрица. Вывести k-ю строку и p-й столбец матрицы.");
+		System.out.println("10. Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё k-СЋ СЃС‚СЂРѕРєСѓ Рё p-Р№ СЃС‚РѕР»Р±РµС† РјР°С‚СЂРёС†С‹.");
 		int[][]a = new int [5][7];
 		matrixTool.matrixInitRandom(a);
 		matrixTool.matrixPrint(a);
@@ -14,11 +14,11 @@ public class Task_10 {
 		int p;
 		k = 3;
 		p = 4;
-		System.out.println("Столбец");
+		System.out.println("РЎС‚РѕР»Р±РµС†");
 		for (int i = 0 ; i < a.length ; i ++) {
 			System.out.println ( a [i][p-1]);
 		}
-		System.out.println ("Строка");
+		System.out.println ("РЎС‚СЂРѕРєР°");
 		for (int j = 0 ; j < a[k-1].length ; j ++) {
 			System.out.println ( a [k-1][j]);
 		}

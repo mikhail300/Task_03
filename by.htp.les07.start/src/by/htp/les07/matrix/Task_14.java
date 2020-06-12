@@ -2,18 +2,20 @@ package by.htp.les07.matrix;
 
 import by.htp.les07.tool.matrixTool;
 
-// 14. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
+// 14. РЎС„РѕСЂРјРёСЂРѕРІР°С‚СЊ РєРІР°РґСЂР°С‚РЅСѓСЋ РјР°С‚СЂРёС†Сѓ РїРѕСЂСЏРґРєР° n РїРѕ Р·Р°РґР°РЅРЅРѕРјСѓ РѕР±СЂР°Р·С†Сѓ(n - С‡РµС‚РЅРѕРµ):
 public class Task_14 {
 	public static void task() {
-		System.out.println ("14. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):");
+		System.out.println ("14. РЎС„РѕСЂРјРёСЂРѕРІР°С‚СЊ РєРІР°РґСЂР°С‚РЅСѓСЋ РјР°С‚СЂРёС†Сѓ РїРѕСЂСЏРґРєР° n РїРѕ Р·Р°РґР°РЅРЅРѕРјСѓ РѕР±СЂР°Р·С†Сѓ(n - С‡РµС‚РЅРѕРµ):");
 		int n;
 		n = 8;
 		int[][]a = new int [n][n];
 		matrixTool.matrixPrint(a);
 		System.out.println ();
+		
 		for (int i = 0 ; i < a.length ; i ++) {
 			a[i][-1 * i + a.length -1] = i + 1;
 		}
 		matrixTool.matrixPrint(a);
+		System.out.println ();
 	}
 }

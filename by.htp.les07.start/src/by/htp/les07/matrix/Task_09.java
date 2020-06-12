@@ -2,18 +2,19 @@ package by.htp.les07.matrix;
 
 import by.htp.les07.tool.matrixTool;
 
-// 9. Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
+// 9. Р”Р°РЅР° РєРІР°РґСЂР°С‚РЅР°СЏ РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ СЌР»РµРјРµРЅС‚С‹, СЃС‚РѕСЏС‰РёРµ РЅР° РґРёР°РіРѕРЅР°Р»Рё.
 public class Task_09 {
 	public static void task() {
-		System.out.println ("9. Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.");
+		System.out.println ("9. Р”Р°РЅР° РєРІР°РґСЂР°С‚РЅР°СЏ РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ СЌР»РµРјРµРЅС‚С‹, СЃС‚РѕСЏС‰РёРµ РЅР° РґРёР°РіРѕРЅР°Р»Рё.");
 		int[][]a = new int [6][6];
 		matrixTool.matrixInitRandom(a);
 		matrixTool.matrixPrint(a);
-		
+		System.out.println ("РґРёР°РіРѕРЅР°Р»СЊ 1");
 		for (int i = 0 ; i < a.length ; i ++) {
 			System.out.println (a [i][i]);
 		}
 		System.out.println ();
+		System.out.println ("РґРёР°РіРѕРЅР°Р»СЊ 2");
 		for (int i = 0 ; i < a.length ; i ++) {
 			System.out.println (a [i][-1 * i+a.length -1]);
 		}

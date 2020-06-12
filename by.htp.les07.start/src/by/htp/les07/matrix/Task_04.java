@@ -2,10 +2,10 @@ package by.htp.les07.matrix;
 
 import by.htp.les07.tool.matrixTool;
 
-// 4. Дана матрица. Вывести на экран первую и последнюю строки.
+// 4. Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ РїРµСЂРІСѓСЋ Рё РїРѕСЃР»РµРґРЅСЋСЋ СЃС‚СЂРѕРєРё.
 public class Task_04 {
 	public static void task() {
-		System.out.println ("4. Дана матрица. Вывести на экран первую и последнюю строки.");
+		System.out.println ("4. Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ РїРµСЂРІСѓСЋ Рё РїРѕСЃР»РµРґРЅСЋСЋ СЃС‚СЂРѕРєРё.");
 		int[][]a = new int[5][7];
 		matrixTool.matrixInitRandom(a);
 		matrixTool.matrixPrint(a);

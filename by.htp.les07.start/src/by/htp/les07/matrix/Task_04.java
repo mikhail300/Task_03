@@ -18,7 +18,7 @@ public class Task_04 {
 	
 	private static void printLine(int line, int matrix[][]) {
 		for(int i = 0 ; i < matrix[line].length ; i ++) {
-			System.out.printf("%2d", matrix[line][i]);
+			System.out.printf("%3d", matrix[line][i]);
 		}
 		System.out.println();
 	}

@@ -15,8 +15,8 @@ public class Task_03 {
 		matrixTool.matrixPrint(a);
 		System.out.println ();
 		for (int i1 = 0 ; i1 < a.length ; i1 ++ ) {
-			System.out.printf("%2d", a[i1][0]);
-			System.out.printf("%2d", a[i1][a[i1].length - 1]);
+			System.out.printf("%3d", a[i1][0]);
+			System.out.printf("%3d", a[i1][a[i1].length - 1]);
 			System.out.println ();
 		}
 	}

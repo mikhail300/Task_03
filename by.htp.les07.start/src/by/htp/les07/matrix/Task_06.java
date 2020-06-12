@@ -13,7 +13,7 @@ public class Task_06 {
 		for (int i =0 ; i < a.length ; i ++) {
 			for ( int j = 0 ; j < a[i].length ; j++) {
 				if (j%2==0 && a[0][j] > a[a.length - 1][j]) {
-				System.out.printf ("%2d", a[i][j]);
+				System.out.printf ("%3d", a[i][j]);
 				}
 			}
 			System.out.println ();

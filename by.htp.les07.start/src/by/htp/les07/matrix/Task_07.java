@@ -16,7 +16,7 @@ public class Task_07 {
 		for (int i = 0 ; i < a.length ; i ++ ) {
 			for (int j = 0 ; j < a[i].length ; j ++) {
 				if ( i % 2 == 0 && j % 2 == 0 && a[i][j] < 0) { 
-					System.out.printf("%2d", a[i][j]);
+					System.out.printf("%3d", a[i][j]);
 					sum += Math.abs(a[i][j]);
 				}
 			}

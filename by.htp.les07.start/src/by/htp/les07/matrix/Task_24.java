@@ -5,7 +5,7 @@ import by.htp.les07.tool.matrixTool;
 // 24. Дан линейный массив n n x , x , , x , x 1 2 −1  . Получить действительную квадратную матрицу порядка n:
 public class Task_24 {
 	public static void task () {
-		System.out.println ("и подсчитать количество положительных элементов в ней.");
+		System.out.println ("24. Дан линейный массив n n x , x , , x , x 1 2 −1  . Получить действительную квадратную матрицу порядка n:");
 		int size = 4;
 		int[] a = new int[size];
 
@@ -23,7 +23,10 @@ public class Task_24 {
 		System.out.println();
 
 		matrixTool.matrixPrint(a2);
+		System.out.println();
+
 	}
+	
 
 	public static void init(int[] mas) {
 		for (int i = 0; i < mas.length; i++) {

@@ -20,6 +20,17 @@ public class main {
 		Task_13.task();
 		Task_14.task();
 		Task_15.task();
+		Task_16.task();
+		Task_17.task();
+		Task_18.task();
+		Task_19.task();
+		Task_20.task();
+		Task_21.task();
+		Task_22.task();
+		Task_23.task();
+		Task_24.task();
+
+		
 
 	}
 }

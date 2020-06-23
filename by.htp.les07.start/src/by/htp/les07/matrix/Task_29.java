@@ -18,5 +18,6 @@ public class Task_29 {
 			}
 		}
 		System.out.println ();
+		System.out.println ();
 	}
 }

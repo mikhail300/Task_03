@@ -13,6 +13,7 @@ public class Task_37 {
 		int[][]a = new int[n][m];
 		matrixTool.matrixInitRandom(a);
 		matrixTool.matrixPrint(a);
+		System.out.println();
 		for (int i = 0 ; i < n ; i ++) {
 			int line_1;
 			int line_2;
@@ -26,6 +27,7 @@ public class Task_37 {
 			
 		System.out.println ();
 		matrixTool.matrixPrint(a);
+		System.out.println();
 	}
 	
 	

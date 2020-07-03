@@ -39,5 +39,6 @@ public class Task_39 {
 			}
 		}
 		matrixTool.matrixPrint(c);
+		System.out.println ();
 	}
 }

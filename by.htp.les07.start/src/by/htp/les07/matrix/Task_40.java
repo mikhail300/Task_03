@@ -10,10 +10,10 @@ public class Task_40 {
 			"так, что суммы по каждому столбцу, каждой строке и каждой из двух больших диагоналей равны между собой.\r\n" + 
 			"Построить такой квадрат. Пример магического квадрата порядка 3:");
 		int n;
-		n = 3; // 3, 5, 7, .... 
-		while (n%2 == 0 || n < 3) {
+		n = 5; // 3, 5, 7, .... 
+		if (n%2 == 0 || n < 3) {
 			System.out.println("Incorrect input, try again");
-			break;
+			return;
 		}
 		int[][] a = new int[n][n];
 		
@@ -35,5 +35,6 @@ public class Task_40 {
 			}
 		}
 		matrixTool.matrixPrint(a);
+		System.out.println ();
 	}
 }

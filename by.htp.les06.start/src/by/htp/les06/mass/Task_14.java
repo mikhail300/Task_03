@@ -2,10 +2,10 @@ package by.htp.les06.mass;
 
 import by.htp.les06.view.massTool;
 
-// 14. Дан одномерный массив A[N]. Найти:max( , , , ) min( , , , )
+// 14. Р”Р°РЅ РѕРґРЅРѕРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ A[N]. РќР°Р№С‚Рё:max( , , , ) min( , , , )
 public class Task_14 {
 	public static void task () {
-		System.out.println ("14. Дан одномерный массив A[N]. Найти:max( , , , ) min( , , , )");
+		System.out.println ("14. Р”Р°РЅ РѕРґРЅРѕРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ A[N]. РќР°Р№С‚Рё:max( , , , ) min( , , , )");
 		int n;
 		n = 15;
 		

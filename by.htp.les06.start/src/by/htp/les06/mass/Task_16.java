@@ -2,10 +2,10 @@ package by.htp.les06.mass;
 
 import by.htp.les06.view.massTool;
 
-// 16. Даны действительные числа  a ,a , ,a 1 2  . Найти max( , , , ) 
+// 16. Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р°  a ,a , ,a 1 2  . РќР°Р№С‚Рё max( , , , ) 
 public class Task_16 {
 	public static void task () {
-		System.out.println ("16. Даны действительные числа  a ,a , ,a 1 2  . Найти max( , , , )");
+		System.out.println ("16. Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р°  a ,a , ,a 1 2  . РќР°Р№С‚Рё max( , , , )");
 		int n;
 		n = 15;
 		
